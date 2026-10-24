@@ -23,7 +23,7 @@ outputs:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/shodan-internetdb@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/shodan-internetdb@sha256:8527f622758405b8e59a9e43cf7b11650b9214d0d1c9a2747b58ee5df569fec1
   platforms: [linux/amd64, linux/arm64]
   command: ["shodan-internetdb", "{ip}"]
   output_format: json
